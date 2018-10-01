@@ -1,0 +1,35 @@
+{
+  "name": "msc-plugin-express",
+  "version": "0.1.0",
+  "description": "microservice chassis express.js plugin",
+  "main": "build/index.js",
+  "scripts": {
+    "lint": "tslint --project ./ --fix",
+    "test": "jest --config ./jest.config.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mujichOk/msc-plugin-express.git"
+  },
+  "keywords": [
+    "microservice",
+    "chassis",
+    "plugin",
+    "express"
+  ],
+  "author": "mujichOk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mujichOk/msc-plugin-express/issues"
+  },
+  "homepage": "https://github.com/mujichOk/msc-plugin-express#readme",
+  "peerDependencies": {
+    "msc-core": "0.2.0"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.0",
+    "msc-core": "0.2.0"
+  }
+}

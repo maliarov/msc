@@ -1,0 +1,32 @@
+{
+  "name": "msc-core",
+  "version": "0.1.0",
+  "description": "microservice chasis core",
+  "main": "dist/lib.js",
+  "scripts": {
+    "lint": "tslint --project ./ --fix",
+    "test": "jest --config ./jest.config.json",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mujichOk/msc-core.git"
+  },
+  "keywords": [
+    "microservice",
+    "chassis",
+    "framework"
+  ],
+  "author": "mujichOk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mujichOk/msc-core/issues"
+  },
+  "homepage": "https://github.com/mujichOk/msc-core#readme",
+  "dependencies": {
+    "config": "1.26.2"
+  },
+  "devDependencies": {
+    "@types/config": "0.0.34"
+  }
+}

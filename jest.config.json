@@ -1,0 +1,20 @@
+{
+    "roots": [
+        "<rootDir>/test"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$",
+    "transform": {
+        "^.+\\.ts$": "ts-jest"
+    },
+    "globals": {
+        "ts-jest": {
+            "tsConfig": "../../tsconfig.jest.json"
+        }
+    },
+    "moduleFileExtensions": [
+        "ts",
+        "js",
+        "json",
+        "node"
+    ]
+}
