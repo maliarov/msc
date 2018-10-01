@@ -21,6 +21,24 @@
             "sourceMaps": true,
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "msc-plugin-express::jest",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/packages/msc-plugin-express",
+            "program": "${workspaceRoot}/node_modules/.bin/jest",
+            "args": [
+                "--config=./jest.config.js",
+                "--runInBand",
+                "--coverage=false"
+            ],
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "sourceMaps": true,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         }
     ]
 }
