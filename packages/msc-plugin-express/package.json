@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mujichOk/msc-plugin-express.git"
+    "url": "https://github.com/mujichOk/msc.git"
   },
   "keywords": [
     "microservice",
@@ -21,15 +21,11 @@
   "author": "mujichOk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mujichOk/msc-plugin-express/issues"
+    "url": "https://github.com/mujichOk/msc/issues"
   },
-  "homepage": "https://github.com/mujichOk/msc-plugin-express#readme",
-  "peerDependencies": {
-    "msc-core": "0.2.0"
-  },
+  "homepage": "https://github.com/mujichOk/msc#readme",
   "dependencies": {
     "body-parser": "1.18.3",
-    "express": "4.16.0",
-    "msc-core": "0.2.0"
+    "express": "4.16.0"
   }
 }
