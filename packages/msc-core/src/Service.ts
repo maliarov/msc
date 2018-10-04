@@ -8,7 +8,6 @@ export enum ServiceMethodArgumentSource {
 export interface ServiceMethodArgumentMetaInfo {
   name: string;
   source: ServiceMethodArgumentSource;
-  // defaultValue?: any;
   // validate?: (value: any) => boolean;
 }
 
